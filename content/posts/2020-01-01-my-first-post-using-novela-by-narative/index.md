@@ -1,5 +1,5 @@
 ---
-title: My first post using Novela by Narative
+title: How to start and get a blog running in 10 mins completely free
 author: Shiaondo Orkuma Alex
 date: 2020-05-13
 hero: ./images/hero.jpg
