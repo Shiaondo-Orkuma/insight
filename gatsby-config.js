@@ -1,35 +1,35 @@
 module.exports = {
   siteMetadata: {
-    title: `Tech and Business Insights`,
-    name: `Tech Insight`,
-    siteUrl: `https://insight-tech.netlify.app/`,
-    description: `SME Business ideas and Tech Insights`,
+    title: `Tech  Business Insights and DevOps`,
+    name: `Dev Auto`,
+    siteUrl: `https://devauto.netlify.app/`,
+    description: `All things DevOps, Automation and Test driven`,
     hero: {
-      heading: `Welcome to Tech Insight, the home for Insightful tech and SME business ideas..`,
-      maxWidth: 652
+      heading: `Welcome to Deve Automation, the home for elegant DevOps solutions..`,
+      maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/Nalexgee1/`
+        url: `https://twitter.com/Nalexgee1/`,
       },
       {
         name: `github`,
-        url: `https://github.com/Shiaondo-Orkuma/`
+        url: `https://github.com/Shiaondo-Orkuma/`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/`
+        url: `https://instagram.com/`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/in/orkuma-shiaondo-6528b7124/`
+        url: `https://www.linkedin.com/in/orkuma-shiaondo-6528b7124/`,
       },
       {
         name: `dribbble`,
-        url: `https://dribbble.com/`
-      }
-    ]
+        url: `https://dribbble.com/`,
+      },
+    ],
   },
   plugins: [
     {
@@ -40,10 +40,10 @@ module.exports = {
         basePath: "/",
         authorsPage: true,
         sources: {
-          local: true
+          local: true,
           // contentful: true,
-        }
-      }
+        },
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -54,12 +54,12 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#fff`,
         display: `standalone`,
-        icon: `src/assets/favicon.png`
-      }
+        icon: `src/assets/favicon.png`,
+      },
     },
     {
       resolve: `gatsby-plugin-netlify-cms`,
-      options: {}
-    }
-  ]
+      options: {},
+    },
+  ],
 };
