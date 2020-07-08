@@ -4,7 +4,6 @@ author: Shiaondo Orkuma Alex
 date: 2020-08-01
 hero: ./images/Normalization-Formula.jpg
 excerpt: In machine learning, there are two common approch to scaling data, this include standization and normalization Scaling data means transforming it so that the values fit within some range or scale, such as 0–100 or 0–1. There are a number of reasons why it is a good idea to scale your data before feeding it into a machine learning algorithm.
-.
 ---
 
 ## Scaling Data
